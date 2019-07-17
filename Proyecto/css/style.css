@@ -1,0 +1,103 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: F3F3FD;
+    padding: 1% 0;
+    font-size: 15px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a{
+    color: #7F7F90
+}
+
+.texto-landing{
+    color: #7F7F90;
+}
+.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a:active{
+    color: #B7939A;
+}
+
+.home{
+    background-image: url(../img/fondo.png);
+    display: table;
+    width: 100%; 
+    height: 100%;
+    position: relative;
+    background-size: cover;
+}
+
+.home span{
+    color: #3C9523;
+}
+
+.home h3{
+    color: #4F494A;
+    font-family: 'Poppins Light';
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.textoHome{
+    display: table-cell;
+    padding-right: 700px;
+    padding-top: 70px;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.lead{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 10px;
+        
+}
+
+
+.padding {
+    padding: 70px 0;
+}
+
+.padding img{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+}
+
+.contact-text{
+    text-decoration: none; 
+    color:#3F3F4D; 
+    font-family: 'Sacramento', 'sans-serif'; 
+    font-size: 40px;
+}
+
+.contact-text:hover{
+    text-decoration: none; 
+    color:#8F666E; 
+    font-family: 'Sacramento', 'sans-serif'; 
+    font-size: 40px;
+}
+.fa{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 25px;
+    color:#B7939A;
+}
+
+.fa:hover{
+    text-decoration: none;
+    padding: 18px;
+    font-size: 25px;
+    color:#8F666E;  
+}

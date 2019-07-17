@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Nueva Empresa</title>
+
+</head>
+<body>
+	<div id="content">
+		<h1>Ingresar nueva empresa</h1>
+		<form action="../app/query.php" method="POST"  enctype="multipart/form-data">
+			<input type="text" name="name" placeholder="Nombre de la empresa" required>
+			<br/>
+			<input type="text" name="info" placeholder="Descripción" required>
+			<br/>
+			<input type="text" name="email" placeholder="Email" required>
+			<br/>
+			<input type="number" name="phone" placeholder="Telefono" required>
+			<br/>
+			<input type="file" name="img1" placeholder="Imagen" accept="image/*" required>
+			<br/>
+			<input type="file" name="img2" placeholder="Imagen" accept="image/*" required>
+			<br/>
+			<input type="file" name="img3" placeholder="Imagen" accept="image/*"  required>
+			<br/>
+			<input type="link" name="fbSite" placeholder="Facebook URL" required>
+			<br/>
+			<input type="link" name="instaSite" placeholder="Instagram URL" required>
+			<br/>
+
+			<select name="comboCategory"  required>
+			<option value="1">Fotografía</option>
+			<option value="2">Pastelería</option>
+			<option value="3">Banquetes</option>
+			<option value="4">Locales</option>
+			</select>
+			<br>
+			<button type="submit" name="send">Enviar</button>
+		</form>
+	</div>
+</body>
+
+
+</html>

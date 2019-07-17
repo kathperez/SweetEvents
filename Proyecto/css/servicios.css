@@ -1,0 +1,56 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: F3F3FD;
+    padding: 1% 0;
+    font-size: 15px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a{
+    color: #7F7F90
+}
+
+.texto-landing{
+    color: #7F7F90;
+}
+.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a:active{
+    color: #B7939A;
+}
+
+.padding {
+    padding: 150px 0;
+}
+
+.padding img{
+    width: 100%;
+    padding: 10px;
+    padding-top: 20%;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 50%;
+    text-align: center;
+}
+
+.link-servicio{
+    color:#6C605E;
+}
+
+
+.link-servicio:hover{
+    text-decoration: none;
+    color: #B75342;
+}

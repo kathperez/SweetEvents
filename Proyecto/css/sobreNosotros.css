@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: F3F3FD;
+    padding: 1% 0;
+    font-size: 15px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a{
+    color: #7F7F90
+}
+
+.texto-landing{
+    color: #7F7F90;
+}
+.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a:active{
+    color: #B7939A;
+}
+
+.padding {
+    padding: 150px 0;
+}
+
+h4{
+    font-family: 'Poppins light';
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+p{
+    font-size: 20px;
+}
